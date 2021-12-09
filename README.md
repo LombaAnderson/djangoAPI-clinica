@@ -11,14 +11,82 @@ Houve essencialmente a preocupação de testar tudo o que foi feito em três tip
 <img src="https://user-images.githubusercontent.com/60937513/145337203-c923f54d-0dd9-48ff-bcc3-54910d9c6743.png" width="600" />
 </div>
 
-## Exemplo do cadastro de Pacientes 
+## Exemplo do cadastro de pacientes 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/60937513/145336879-89b72deb-fb00-474b-9c18-f5156b6e9c84.png" width="800" />
 </div>
 
-## Imagem 
+## Imagem que mostra o que é pedido no cadastro histórico
 <div align="center">
-<img src="https://user-images.githubusercontent.com/60937513/145337328-c604027a-4b1c-4dd6-867c-a635bc0c242d.png" width="600" />
+<img src="https://user-images.githubusercontent.com/60937513/145337328-c604027a-4b1c-4dd6-867c-a635bc0c242d.png" width="800" />
 </div>
+
+# Tecnologias utilizadas
+
+- Python
+- API Django Rest
+- asgiref==3.4.1
+- autopep8==1.6.0
+- Django==4.0
+- djangorestframework==3.12.4
+- pycodestyle==2.8.0
+- python-decouple==3.5
+- pytz==2021.3
+- sqlparse==0.4.2
+- toml==0.10.2
+- tzdata==2021.5
+
+# Testes unitários e manual
+- Python
+- Insomnia
+
+# Instruções para compilar, testar e rodar o projeto
+
+```bash
+# Clonar repositório
+git clone https://github.com/LombaAnderson/djangoAPI-clinica
+
+# Criação e acesso da pasta do projeto
+-mkdir clinica
+-cd clinica
+
+# Criação do ambiente de desenvolvimento do Python
+-python -m venv venv
+
+# Ativar o ambiente de desenvolvimento(venv)
+-source venv/Scripts/activate
+
+# Instalação do Django (Atenção: instalar somente após a ativação da venv)
+-pip install django
+
+# Instalação do pacote do Django Rest Framework
+-pip install django djangorestframework
+ 
+# Comando de criação do projeto
+-django-admin startproject clinica .
+
+# Apps 
+-django-admin startapp pacientes
+-django-admin startapp historicos
+-django-admin startapp agendamentos
+
+```
+
+# Autor
+
+Anderson Lomba de Oliveira
+
+Linkedin
+
+https://www.linkedin.com/in/anderson-lomba-140279142/
+
+Portfólio
+
+https://www.lombanderson.epizy.com
+
+# Agradecimentos
+
+Agradeço ao meu Deus que está sempre comigo e a minha esposa, minha companheira que amo muito! Agradeço também meus professores e desenvolvedores que me aturam às vezes em todas minhas perguntas curiosas sobre programação.
+
 
 
