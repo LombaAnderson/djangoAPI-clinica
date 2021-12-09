@@ -64,6 +64,15 @@ git clone https://github.com/LombaAnderson/djangoAPI-clinica
 # Comando de criação do projeto
 -django-admin startproject clinica .
 
+# Criação do servidor
+-python manage.py runserver
+
+# Instalação do pytz(timezone)
+pip install pytz
+
+# Acesso ao servidor Django
+http://127.0.0.1:8000/
+
 # Apps 
 -django-admin startapp pacientes
 -django-admin startapp historicos
