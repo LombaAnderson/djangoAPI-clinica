@@ -27,7 +27,6 @@ Houve essencialmente a preocupação de testar tudo o que foi feito em três tip
 - API Django Rest
 - asgiref==3.4.1
 - autopep8==1.6.0
-- Django==4.0
 - djangorestframework==3.12.4
 - pycodestyle==2.8.0
 - python-decouple==3.5
