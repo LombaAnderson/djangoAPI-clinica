@@ -78,6 +78,12 @@ http://127.0.0.1:8000/
 -django-admin startapp historicos
 -django-admin startapp agendamentos
 
+# Preparação das migrations
+- python manage.py makemigrations
+
+# Envio das migrations configuradas para o banco de dados
+- python manage.py migrate
+
 ```
 
 # Autor
